@@ -1,0 +1,15 @@
+email-service/
+├── .github/
+│   └── workflows/
+│       └── ci-cd.yml
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── email_sender.py
+│   └── config.py
+├── ecs-task-def.json
+├── Dockerfile
+├── requirements.txt
+├── .env                # (ignored in .gitignore)
+├── .gitignore
+├── README.md

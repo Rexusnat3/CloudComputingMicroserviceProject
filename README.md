@@ -1,6 +1,7 @@
-Email Service Microservice
+# Email Service Microservice
 
-Project Structure
+## Project Structure
+```
 
 email-service/
 ├── .github/
@@ -18,6 +19,7 @@ email-service/
 ├── .env                # (ignored in .gitignore)
 ├── .gitignore
 ├── README.md
+```
 
 
 This is a lightweight, containerized email sending microservice built with FASTAPI and Python. 

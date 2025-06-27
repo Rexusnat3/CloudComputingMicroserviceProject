@@ -42,17 +42,17 @@ SMTP email provider credentials
 
 Instalation and Set Up:
 1. Clone the repository
-   git clone https://github.com/Rexusnat3/CloudComputingMicroserviceProject.git
-   cd email-service
+   (git clone https://github.com/Rexusnat3/CloudComputingMicroserviceProject.git
+   cd email-service)
 2. Create a virtual environment
-   python - venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   (python - venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate)
 3. Install Dependencies
-   pip install -r requirements.txt
+   (pip install -r requirements.txt)
 4. Configure Environment Variables
-   edit the .env file with your SMTP credentials
+   (edit the .env file with your SMTP credentials)
 5. Run the application
-   uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+  (uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload)
 
 Gmail Setup
 For Gmail, you'll need to:

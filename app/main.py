@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, EmailStr
-from app.email_sender import send_email
+from .email_sender import send_email  # Changed to relative import
 
 app = FastAPI()
 

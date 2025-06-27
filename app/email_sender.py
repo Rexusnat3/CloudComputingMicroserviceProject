@@ -1,6 +1,6 @@
 import smtplib
 from email.mime.text import MIMEText
-from app.config import SMTP_SERVER, SMTP_PORT, SMTP_USERNAME, SMTP_PASSWORD, SENDER_EMAIL
+from .config import SMTP_SERVER, SMTP_PORT, SMTP_USERNAME, SMTP_PASSWORD, SENDER_EMAIL  # Changed to relative import
 
 def send_email(recipient_email: str, subject: str, body: str) -> bool:
     msg = MIMEText(body)
